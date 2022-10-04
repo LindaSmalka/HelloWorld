@@ -111,11 +111,11 @@ public class Main {
         rezultats = 5*(3+7)/2;
         System.out.println(rezultats);
 
-
-
-
-
-
+        String koks = "Priede";
+        int suguSkaitsLatvijā = 13;
+        boolean irSkujas = true;
+        float apkartmērs = 0.7F;
+        char priedeSaisinajums = 'P';
 
 
 
