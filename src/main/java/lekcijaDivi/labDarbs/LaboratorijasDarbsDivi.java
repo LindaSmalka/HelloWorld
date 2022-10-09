@@ -219,37 +219,30 @@ public class LaboratorijasDarbsDivi {
 
 
 
-//        Scanner scanner = new Scanner(System.in);
+        Scanner scanner1 = new Scanner(System.in);
 
 
-//        System.out.println("Hello Lekcija 2");
-//
-//        int vecums;
-//        System.out.println("Kā tevi sauc?");
-//        String name = scanner.nextLine();
-//        System.out.println("Labdien, " + name + " Esi sveicināta manā programmā");
-//
-//        System.out.println("Ievadi cilveka vecumu...");
-//        vecums = scanner.nextInt();
-//
-//        if (vecums>=18){
-//            System.out.println("Cilvēks drīkst balsot");
-//        }
-//
-//        System.out.println("Programmas turpinājums");
-//
-//        System.out.println("ievadi skaitli a");
-//        int a = scanner.nextInt();
+        System.out.println("Hello Lekcija 2");
+        int gadi;
+        System.out.println("Kā tevi sauc?");
+        String name = scanner1.nextLine();
+        System.out.println("Labdien, " + name + " Esi sveicināta manā programmā");
 
+        System.out.println("Ievadi cilveka vecumu...");
+        gadi = scanner1.nextInt();
 
+        if (gadi>=18){
+            System.out.println("Cilvēks drīkst balsot");
+        }
 
+        System.out.println("Programmas turpinājums");
 
-
-
-
-
-
-
+        System.out.println("Ievadi skaitli a");
+        int a = scanner.nextInt();
+        System.out.println("Ievadi skaitli b");
+        int b = scanner.nextInt();
+        int summa = a + b;
+        System.out.println("Skaitla " + a + " un Skaitla " + b + " Summa ir " + summa);
 
 
     }
