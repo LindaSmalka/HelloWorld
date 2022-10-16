@@ -6,7 +6,7 @@ public class printBusinessCardTwo {
     printCard("Linda", "Smalkā", "+371 12345678", 1992);
     printCard("Vita", "Irbe", "+371 23456789", 1993);
 
-     
+
     }
 
         public static void printCard (String vards, String uzvards, String telefons, int gads) {
