@@ -245,5 +245,17 @@ public class LaboratorijasDarbsDivi {
         System.out.println("Skaitla " + a + " un Skaitla " + b + " Summa ir " + summa);
 
 
+
+        //metodes
+
+        System.out.println("#######");
+        System.out.println("Linda");
+        System.out.println("Rīga");
+        System.out.println("DNB");
+
+
+
+
+
     }
 }
