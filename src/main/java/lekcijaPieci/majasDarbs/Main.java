@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Cilindrs cilindrs = new Cilindrs(4,5);
+        Cilindrs cilindrs = new Cilindrs (6.8,8.4);
 
         System.out.println("Cilindrs 1: ");
         cilindrs.printTilpums();
@@ -14,8 +14,8 @@ public class Main {
 
 
         System.out.println("\nCilindrs 2: ");
-        cilindrs.setRadiuss(9);
-        cilindrs.setAugstums(4);
+        cilindrs.setRadiuss(9.5);
+        cilindrs.setAugstums(4.3);
 
         cilindrs.printTilpums();
         cilindrs.printVirsma();
