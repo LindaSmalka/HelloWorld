@@ -2,24 +2,24 @@ package lekcijaPieci.majasDarbs;
 
 public class Cilindrs {
 
-    private int radiuss;
-    private int augstums;
+    private double radiuss;
+    private double augstums;
 
-    public Cilindrs(int radiuss, int augstums) {
+    public Cilindrs(double radiuss, double augstums) {
         this.radiuss = radiuss;
         this.augstums = augstums;
     }
 
 
-    public int getRadiuss() {
+    public double getRadiuss() {
         return radiuss;
     }
 
-    public void  setRadiuss(int radiuss) {this.radiuss = radiuss; }
+    public void  setRadiuss(double radiuss) {this.radiuss = radiuss; }
 
-    public int  getAugstums() {return augstums;};
+    public double  getAugstums() {return augstums;};
 
-    public void  setAugstums(int augstums) {this.augstums = augstums; }
+    public void  setAugstums(double augstums) {this.augstums = augstums; }
 
 
 
